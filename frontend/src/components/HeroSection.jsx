@@ -1,8 +1,10 @@
 import React from "react";
+import NavBar from "./NavBar";
 
 const HeroSection = () => {
     return (
         <section className="heroSection" id="heroSection">
+            <NavBar/>
             <div className="container">
                 <div className="banner">
                     <div className="largeBox">
@@ -16,9 +18,9 @@ const HeroSection = () => {
                             <div className="textWithSvg">
                                 <h1 classname="title">Food</h1>
                                 <h1 classname="title dishes_title">Dishes</h1>
-                                <img src="/threeLines.svg" alt="three" />
+                                <img src="/threelines.svg" alt="three" />
                             </div>
-                            <img src="/logo" alt="logo" className="logo" />
+                            <img src="/logo.svg" alt="logo" className="logo" />
                         </div>
                     </div>
                 </div>
