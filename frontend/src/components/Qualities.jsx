@@ -1,7 +1,7 @@
 import React from "react";
 import { data } from "../restAPI.json";
 
-const Qualtiies = () => {
+const Qualitiies = () => {
     return (
         <section className="qualities" id="qualities">
             <div className="container">
@@ -18,4 +18,4 @@ const Qualtiies = () => {
     );
 };
 
-export default Qualtiies;
+export default Qualitiies;
