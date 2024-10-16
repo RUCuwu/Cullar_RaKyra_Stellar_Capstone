@@ -4,6 +4,7 @@ import About from "../components/About";
 import Qualitiies from "../components/Qualities";
 import Menu from "../components/Menu";
 import WhoAreWe from "../components/WhoAreWe";
+import Team from "../components/Team";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Qualitiies />
             <Menu />
             <WhoAreWe />
+            <Team />
             
         </>
     )
