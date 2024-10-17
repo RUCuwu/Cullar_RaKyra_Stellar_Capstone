@@ -2,7 +2,7 @@ import app from "./app.js";
 import cors from "cors";
 
 app.use(cors({
-    oridin: "http://localhost:3000",
+    origin: "http://localhost:3000",
     credentials: true,
 }));
 
